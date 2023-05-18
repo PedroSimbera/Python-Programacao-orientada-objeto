@@ -1,18 +1,21 @@
-class Pessoa:              #classe define o tipo de objeto
-    nome = ""              #Atributos são as caracteristicas
-    idade = 0              #Métodos são as funções que esse objeto poderá executar
-    email = ""
+class Pessoa:                   #classe define o tipo de objeto
+    nome = "Pedro"              #Atributos são as caracteristicas
+    idade = 26                  #Métodos são as funções que esse objeto poderá executar
+    email = "pedro.simbera@fatec.sp.gov.br"
 
     def exibir(self):
         print(self.nome)
+    
+    def email(self):
+        print(self.email)
 
 # Em Python, o parâmetro self é uma convenção usada para referenciar o próprio objeto dentro dos métodos de uma classe. 
 
 # Por padrão quando se tem um método, ou você simplesmente o chama executando algo e sem receber valores, 
 # ou você usa valores padrões daquela classe.
 
-# Assim ou o def "xxx" ():
-#               print ("terá seu prórpio valor aqui, sem parâmetros ou valores externos")
+# Assim ou o def "xxx" (self):
+#               print (self....."terá seu próprio valor aqui, sem parâmetros ou valores externos")
 #
 # Ou terá parâmetros def "ssss" (self, a, b, c):
 #               print (a, b, c)
