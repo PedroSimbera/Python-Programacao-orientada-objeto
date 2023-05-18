@@ -7,7 +7,9 @@ print(pessoa.idade)  #forma de exibir o conteúdo do objeto
 
 from Animal import Animal
 cachorro = Animal()
+gato = Animal()
 cachorro.cadastro(nome="Bebel", idade=9, raca="mestiça")
+gato.cadastro("Lila", 3, "Siamês")
 
 #Na class:
 # class Animal:
@@ -21,3 +23,4 @@ cachorro.cadastro(nome="Bebel", idade=9, raca="mestiça")
 #         print(raca)
 
 # Abriu para receber argumentos que entrou junto ao chamamento 
+# Pode chamar: 1. (nome="Bebel", idade=9, raca="mestiça") ou 2. ("Lila", 3, "Siamês")
